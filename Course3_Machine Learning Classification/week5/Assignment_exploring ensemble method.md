@@ -1,0 +1,116 @@
+# Exploring Ensemble Methods
+
+### 1
+
+What percentage of the predictions on sample_validation_data did model_5 get correct?
+
+
+25%
+
+
+50%
+
+
+>75%
+
+
+100%
+
+### 2
+
+According to model_5, which loan is the least likely to be a safe loan?
+
+
+First
+
+
+Second
+
+
+Third
+
+
+>Fourth
+
+### 3
+
+What is the number of false positives on the validation data?
+
+
+>1652
+
+### 4
+
+Using the same costs of the false positives and false negatives, what is the cost of the mistakes made by the boosted tree model (model_5) as evaluated on the validation_set?
+
+
+47950000
+
+
+### 5
+
+What grades are the top 5 loans?
+
+
+>A
+
+
+B
+
+
+C
+
+
+D
+
+
+E
+
+### 6
+
+Which model has the best accuracy on the validation_data?
+
+
+model_10
+
+
+model_50
+
+
+model_100
+
+
+model_200
+
+
+>model_500
+
+### 7
+
+Is it always true that the model with the most trees will perform best on the test/validation set?
+
+
+Yes, a model with more trees will ALWAYS perform better on the test/validation set.
+
+
+>No, a model with more trees does not always perform better on the test/validation set.
+
+### 8
+
+Does the training error reduce as the number of trees increases?
+
+
+>Yes
+
+
+No
+
+### 9
+
+Is it always true that the test/validation error will reduce as the number of trees increases?
+
+
+>Yes, it is ALWAYS true that the test/validation error will reduce as the number of trees increases.
+
+
+No, the test/validation error will not necessarily always reduce as the number of trees increases.
