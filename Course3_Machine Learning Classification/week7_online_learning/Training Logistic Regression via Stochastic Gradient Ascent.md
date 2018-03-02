@@ -22,11 +22,11 @@ $$
 $$
 
 whereas the average log likelihood is given by
-
+```
 $$\ell\ell_A(\mathbf{w}) = \color{red}{\frac{1}{N}} \sum_{i=1}^N \Big( (\mathbf{1}[y_i = +1] - 1)\mathbf{w}^T h(\mathbf{x}_i) - \ln\left(1 + \exp(-\mathbf{w}^T h(\mathbf{x}_i))\right) \Big) $$
-
+```
 How are the functions ℓℓ(w) and ℓℓA(w) related?
-
+```
 $$\ell\ell_A(\mathbf{w}) = \ell\ell(\mathbf{w})$$
 
 >$$\ell\ell_A(\mathbf{w}) = (1/N) * \ell\ell(\mathbf{w})$$
@@ -34,7 +34,7 @@ $$\ell\ell_A(\mathbf{w}) = \ell\ell(\mathbf{w})$$
 $$\ell\ell_A(\mathbf{w}) = (N) * \ell\ell(\mathbf{w})$$
 
 $$\ell\ell_A(\mathbf{w}) = \ell\ell(\mathbf{w}) -||w||$$
-
+```
 
 ### 3
 
