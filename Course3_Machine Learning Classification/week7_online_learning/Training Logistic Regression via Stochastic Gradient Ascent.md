@@ -18,8 +18,9 @@ Decreases
 Recall from the lecture and the earlier assignment, the log likelihood (without the averaging term) is given by
 
   $$
+  \begin{array}{c}
     \frac{\partial\ell}{\partial w_j} = \sum_{i=1}^N h_j(\mathbf{x}_i)\left(\mathbf{1}[y_i = +1] - P(y_i = +1 | \mathbf{x}_i, \mathbf{w})\right)
-
+ \end{array}
   $$
 
 whereas the average log likelihood is given by
